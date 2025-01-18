@@ -1,0 +1,14 @@
+﻿@model int;
+
+@{
+    ViewData["Title"] = "Other Page";
+}
+<div>
+    <h6 class="display-4">Welcome to the @ViewData["Title"]</h6>
+    <p>
+        This page has been viewed @Model times!
+    </p>
+    <p>
+        <a asp-area="" asp-controller="Home" asp-action="Index">Go To Home Page</a>
+    </p>
+</div>
